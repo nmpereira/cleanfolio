@@ -6,20 +6,14 @@ const Form = () => (
     <div>
       <form name='contact' method='POST' data-netlify='true'>
         <p>
-          <label htmlFor='name'>
-            Your Name: <input type='text' name='name' />
-          </label>
+          <input type='text' name='name' placeholder='Name' />
         </p>
         <p>
-          <label htmlFor='email'>
-            Your Email: <input type='email' name='email' />
-          </label>
+          <input type='email' name='email' placeholder='email' />
         </p>
 
         <p>
-          <label htmlFor='message'>
-            Message: <textarea name='message' />
-          </label>
+          <textarea name='message' placeholder='Message' />
         </p>
         <p>
           <button type='submit'>Send</button>
