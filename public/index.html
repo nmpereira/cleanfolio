@@ -14,6 +14,30 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <script type="text/babel">
+
+    ReactDOM.render(
+
+      <form name='contact' method='POST' data-netlify='true'>
+        <p>
+          <input type='text' name='name' placeholder='Name' />
+        </p>
+        <p>
+          <input type='email' name='email' placeholder='email' />
+        </p>
+
+        <p>
+          <textarea name='message' placeholder='Message' />
+        </p>
+        <p>
+          <button type='submit'>Send</button>
+        </p>
+      </form>
+      ,
+      document.getElementById("root")
+    );
+
+  </script>
 </body>
 
 </html>
