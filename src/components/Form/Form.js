@@ -4,7 +4,8 @@
 const Form = () => (
   <section className='section contact center' id='form'>
     <div>
-      <form name='contact' method='POST' data-netlify='true'>
+      <form name='cleanfolio' method='POST' data-netlify='true'>
+        <input type='hidden' name='form-name' value='cleanfolio' />
         <p>
           <input type='text' name='name' placeholder='Name' />
         </p>
