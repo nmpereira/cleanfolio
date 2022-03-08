@@ -1,6 +1,8 @@
+import pdf from './components/Pdf/nmpereira_cv.pdf'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://nmpereira-dev.netlify.app/',
+  homepage: window.location.href,
   title: 'Mario',
 }
 
@@ -10,7 +12,7 @@ const about = {
   role: 'Full Stack Software Developer',
   // description:
   //   'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  resume: pdf,
   social: {
     linkedin: 'https://www.linkedin.com/in/nikhilpereira25/',
     github: 'https://github.com/nmpereira',
