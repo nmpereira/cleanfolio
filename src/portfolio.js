@@ -22,7 +22,7 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Andromedus Consulting',
-    description: 'A WordPress site for a ERP consulting firm',
+    description: 'A WordPress site for a ERP consulting firm.',
     stack: ['WordPress'],
     // sourceCode: 'https://github.com',
     livePreview: 'http://www.andromedusconsulting.com/',
@@ -37,8 +37,7 @@ const projects = [
   },
   {
     name: 'Workout Timer',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    description: 'Timer for working out or pomodoro using flask, HTML and CSS.',
     stack: ['Flask', 'HTML', 'CSS'],
     sourceCode: 'http://pytimerapp.herokuapp.com/',
     livePreview: 'https://github.com/nmpereira/pytimer',
