@@ -1,9 +1,14 @@
 function CV() {
     console.log('cv')
     return ( 
-        <div>
-            <h1>CV</h1>
+        <>
+        <div id="pdf">
+        <div id="pageContainer" className="pdfViewer singlePageView"/>
+        <canvas id="the-canvas"/>
+        
         </div>
+        </>
+   
      );
 }
 
