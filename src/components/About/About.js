@@ -1,4 +1,4 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
+import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
 import LinkIcon from '@mui/icons-material/Link'
