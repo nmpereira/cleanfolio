@@ -1,29 +1,39 @@
-.pdf-view{
-    /* center */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.pdf-view {
+  /* center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 0 auto;
 }
-.home-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
-    /* width: 50px; */
-}
-.download-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
-    /* width: 50px; */
-}
-.Links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* space it out next to each other*/
-    gap: 1em;
+
+.pdf-canvas {
+  @media screen and (max-width: 600px) {
+    width: 80% !important;
+    height: 80% !important;
+  }
     
+  
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  /* width: 50px; */
+}
+.download-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  /* width: 50px; */
+}
+.Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* space it out next to each other*/
+  gap: 1em;
 }

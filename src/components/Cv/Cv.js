@@ -29,7 +29,7 @@ const CV = () => {
 
       <div className='pdf-view'>
         {!pdfDocument && <span>Loading...</span>}
-        <canvas ref={canvasRef} />
+        <canvas ref={canvasRef} className='pdf-canvas'/>
       </div>
     </>
   )

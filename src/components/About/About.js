@@ -5,7 +5,6 @@ import LinkIcon from '@mui/icons-material/Link'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import { FaDiscord } from 'react-icons/fa'
 import { about } from '../../portfolio'
-// import pdf from '../Pdf/nmpereira_cv.pdf'
 import './About.css'
 
 const About = () => {
