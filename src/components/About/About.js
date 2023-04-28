@@ -5,11 +5,11 @@ import LinkIcon from '@mui/icons-material/Link'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import { FaDiscord } from 'react-icons/fa'
 import { about } from '../../portfolio'
-// import pdf from '../Pdf/nmpereira_cv.pdf'
 import './About.css'
 
 const About = () => {
   const { name, role, description, social } = about
+
 
   return (
     <div className='about center'>
@@ -23,13 +23,13 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {
-          <a href='/nmpereira_cv.pdf'>
+        
+          <a href='/cv'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
-        }
+        
 
         {social && (
           <>

@@ -1,7 +1,7 @@
-
 import { useContext, useEffect } from 'react'
-import LogRocket from 'logrocket';
+import LogRocket from 'logrocket'
 import ReactGA from 'react-ga4'
+import { Routes, Route } from 'react-router-dom'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -12,14 +12,15 @@ import Contact from './components/Contact/Contact'
 import Form from './components/Form/Form'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import CV from './components/Cv/Cv'
 
 ReactGA.initialize('G-04WBZHWT9X')
-LogRocket.init('9g3btl/nmpereira');
+LogRocket.init('9g3btl/nmpereira')
 
 const App = () => {
+
   useEffect(() => {
     ReactGA.send('pageview')
-    
   }, [])
   const [{ themeName }] = useContext(ThemeContext)
 
@@ -27,13 +28,21 @@ const App = () => {
     <div id='top' className={`${themeName} app`}>
       <Header />
 
-      <main>
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <Form />
-      </main>
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <main>
+              <About />
+              <Projects />
+              <Skills />
+              <Contact />
+              <Form />
+            </main>
+          }
+        />
+        <Route path='/cv' element={<CV />} />
+      </Routes>
 
       <ScrollToTop />
       <Footer />
