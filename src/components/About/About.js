@@ -8,8 +8,9 @@ import { about } from '../../portfolio'
 // import pdf from '../Pdf/nmpereira_cv.pdf'
 import './About.css'
 
-const About = () => {
+const About = (props) => {
   const { name, role, description, social } = about
+  // const {setShowCv, showCv} = props
 
   return (
     <div className='about center'>
@@ -24,7 +25,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {
-          <a href='/nmpereira_cv.pdf'>
+          <a href='/cv'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
