@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "https://nmpereira-dev.netlify.app/",
   "engines": {
-    "node": ">=16.0.0"
+    "node": "18.16.0",
+    "npm": "9.5.1"
   },
   "dependencies": {
     "@emotion/react": "^11.8.1",
