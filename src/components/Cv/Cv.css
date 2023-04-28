@@ -3,5 +3,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+   
+}
+.home-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    /* width: 50px; */
+}
+.download-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    /* width: 50px; */
+}
+.Links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* space it out next to each other*/
+    gap: 1em;
+    
 }

@@ -8,9 +8,9 @@ import { about } from '../../portfolio'
 // import pdf from '../Pdf/nmpereira_cv.pdf'
 import './About.css'
 
-const About = (props) => {
+const About = () => {
   const { name, role, description, social } = about
-  // const {setShowCv, showCv} = props
+
 
   return (
     <div className='about center'>
