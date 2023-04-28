@@ -24,13 +24,13 @@ const About = (props) => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {
+        
           <a href='/cv'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
           </a>
-        }
+        
 
         {social && (
           <>
