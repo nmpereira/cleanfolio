@@ -54,21 +54,6 @@ const projects = [
     // sourceCode: 'https://github.com',
     livePreview: 'http://www.andromedusconsulting.com/',
   },
-  {
-    name: 'FriendList',
-    description:
-      'A project for a friend list that uses CRUD based on Ruby on rails. Uses RDBMS (MySql) to store userdata with user authentication using devise.',
-    stack: ['Ruby on rails', 'BootStrap'],
-    sourceCode: 'https://github.com/nmpereira/FriendsDB-railsfriends',
-    livePreview: 'https://nmpereira.herokuapp.com/',
-  },
-  {
-    name: 'Workout Timer',
-    description: 'Timer for working out or pomodoro using flask, HTML and CSS.',
-    stack: ['Flask', 'HTML', 'CSS'],
-    sourceCode: 'https://github.com/nmpereira/pytimer',
-    livePreview: 'http://pytimerapp.herokuapp.com/',
-  },
 
 ]
 
