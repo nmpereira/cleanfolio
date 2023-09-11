@@ -25,7 +25,13 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-
+  {
+    name: 'Community Focus',
+    description: 'Sharable Pomodoro Timer for the Community. Join a room and work with others. Share the link and they can join you!', 
+    stack: ['Typescript', 'React', 'Node', 'MongoDB', 'Socketio', 'React styled components', 'Jest'],
+    sourceCode: 'https://github.com/CommunityFocus',
+    livePreview: 'https://communityfocus.app/',
+  },
   {
     name: 'Cannabis price tracker',
     description: 'A price tracker for cannabis products from various dispensaries in canada (Client work)', 
