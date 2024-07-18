@@ -39,13 +39,13 @@ const projects = [
     sourceCode: 'https://github.com/nmpereira/prettydakush',
     livePreview: 'https://cannabis-price.nmpereira.com/',
   },
-   {
-    name: 'Shared Timer',
-    description: 'A shared Timer for working with remote teams',
-    stack: ['Express', 'Node', 'Socket.io'],
-    sourceCode: 'https://github.com/nmpereira/time-share',
-    livePreview: 'https://time.nmpereira.com/',
-  },
+  //  {
+  //   name: 'Shared Timer',
+  //   description: 'A shared Timer for working with remote teams',
+  //   stack: ['Express', 'Node', 'Socket.io'],
+  //   sourceCode: 'https://github.com/nmpereira/time-share',
+  //   livePreview: 'https://time.nmpereira.com/',
+  // },
   {
     name: 'Conversation Starters App',
     description: 'An app to help people with conversation starters/prompts',
@@ -53,13 +53,13 @@ const projects = [
     sourceCode: 'https://github.com/nmpereira/cardGameBackend',
     livePreview: 'http://cards.nmpereira.com/',
   },
-  {
-    name: 'Andromedus Consulting',
-    description: 'A WordPress site for a ERP consulting firm.',
-    stack: ['WordPress'],
-    // sourceCode: 'https://github.com',
-    livePreview: 'http://www.andromedusconsulting.com/',
-  },
+  // {
+  //   name: 'Andromedus Consulting',
+  //   description: 'A WordPress site for a ERP consulting firm.',
+  //   stack: ['WordPress'],
+  //   // sourceCode: 'https://github.com',
+  //   livePreview: 'http://www.andromedusconsulting.com/',
+  // },
 
 ]
 
